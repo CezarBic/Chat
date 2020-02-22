@@ -1,0 +1,108 @@
+body{
+    background-color: #ACC4CE;
+}
+#container{
+    width: 300px;
+    height: 350px;
+    margin-top: 20%;
+    margin-left: 40%;
+    text-align: center;
+    display: inline-block;
+    background-color:#ACC4CE ;
+    border-radius: 5%;
+}
+
+#submit {
+    height: 30px;
+    width: 100px;
+    display: block;
+    margin-top: 14%;
+    font-size: 16px;
+    margin-left: 35%;
+    background-color:#9d9d9d ;
+
+}
+
+#inputs {
+    display: block;
+    margin-top: 30%;
+    margin-left: 20px;
+    width: 250px;
+    height: 20px;
+    font-size: 16px;
+}
+#a{
+    display: block;
+    font-size: 20px;
+    margin-top: 50%;
+}
+#login {
+    height: 30px;
+    width: 100px;
+    display: block;
+    margin-top: 10%;
+    font-size: 16px;
+    margin-left: 30%;
+    background-color:#9d9d9d
+}
+#messages{
+    height: 700px;
+    width: 600px;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #9d9d9d;
+
+}
+#form{
+    display: flex;
+
+}
+#message{
+    width: 510px;
+}
+
+#message, #send {
+    font-size: 1.2rem;
+    padding: 20px;
+    margin: 5px 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid blue;
+
+}
+
+#message{
+    flex: 2;
+
+}
+
+#signup-container{
+    margin-top: 20%;
+}
+input{
+    margin-top: 5px;
+    background-color:#ACC4CE;
+}
+#logout{
+    margin-left: 1%;
+    background-color:#9d9d9d;
+}
+.msg{
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    width: fit-content;
+
+
+}
+.msg p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.msg span{
+    font-size: 0.5rem;
+    margin-left: 20px;
+}
+
